@@ -76,19 +76,21 @@ export const Navbar = () => {
         {/* Brand Logo */}
         <a href="#hero" className="flex items-center gap-3 group focus:outline-none">
           {!logoError ? (
-            <img
-              src={siteData.brand.brandSvg}
-              alt={siteData.brand.name}
-              onError={() => setLogoError(true)}
-              className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-            />
+            <div className="bg-white/95 px-3 py-1.5 rounded-xl border border-white/20 shadow-md flex items-center transition-transform duration-300 group-hover:scale-105">
+              <img
+                src={siteData.brand.brandSvg}
+                alt={siteData.brand.name}
+                onError={() => setLogoError(true)}
+                className="h-7 sm:h-8 md:h-9 w-auto object-contain"
+              />
+            </div>
           ) : (
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#e57e25] to-[#fb7500] flex items-center justify-center shadow-lg shadow-[#e57e25]/30">
-                <span className="font-display font-black text-black text-sm">A</span>
+                <span className="font-display font-black text-black text-sm">N</span>
               </div>
               <span className="font-display font-bold text-xl md:text-2xl tracking-tight text-white group-hover:text-[#fb7500] transition-colors">
-                ACROSSYS<span className="text-[#e57e25]">.</span>
+                NIMAD TECH<span className="text-[#e57e25]">.</span>
               </span>
             </div>
           )}

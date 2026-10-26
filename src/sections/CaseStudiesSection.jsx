@@ -97,7 +97,7 @@ export const CaseStudiesSection = () => {
 
           <div className="flex-shrink-0">
             <MagneticButton
-              href="https://acrossysdigital.com/case-studies/"
+              href="#case-studies"
               variant="outline"
               className="!text-sm"
             >
@@ -193,11 +193,9 @@ export const CaseStudiesSection = () => {
                   </div>
                 </div>
 
-                {/* Clickable Full-Card Link */}
+                {/* Clickable Full-Card Link (stays internal) */}
                 <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={project.link || "#case-studies"}
                   className="absolute inset-0 z-10 focus:outline-none"
                   aria-label={`View Case Study: ${project.title}`}
                 />

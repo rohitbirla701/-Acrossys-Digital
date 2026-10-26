@@ -32,7 +32,7 @@ export const Footer = () => {
     }, 3500);
   };
 
-  // Recreate the live reference's 3D letter tilt tracking for "ACROSSYS"
+  // 3D letter tilt tracking for "NIMAD TECH"
   useEffect(() => {
     const box = hoverContainerRef.current;
     if (!box) return;
@@ -93,7 +93,7 @@ export const Footer = () => {
     };
   }, []);
 
-  const footerBrandLetters = "ACROSSYS".split('');
+  const footerBrandLetters = "NIMAD TECH".split('');
 
   return (
     <footer className="bg-[#0b0b0b] text-[#999999] pt-20 pb-12 border-t border-white/10 relative overflow-hidden">
@@ -111,12 +111,13 @@ export const Footer = () => {
           {/* Column 1: Brand & Accreditations (Col 1-4) */}
           <div className="lg:col-span-4 space-y-6">
             <a href="#hero" className="inline-flex items-center gap-3 group">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#e57e25] to-[#fb7500] flex items-center justify-center font-display font-bold text-black text-sm shadow-[0_0_12px_rgba(229,126,37,0.4)] group-hover:scale-105 transition-transform">
-                A
+              <div className="bg-white/95 px-3 py-1.5 rounded-xl border border-white/20 shadow-md flex items-center group-hover:scale-105 transition-transform">
+                <img
+                  src={siteData.brand.brandSvg}
+                  alt={siteData.brand.name}
+                  className="h-8 sm:h-9 w-auto object-contain"
+                />
               </div>
-              <span className="font-display font-bold text-2xl text-white tracking-tight">
-                ACROSSYS<span className="text-[#e57e25]">.</span>
-              </span>
             </a>
 
             <div className="p-5 rounded-2xl bg-[#141414] border border-white/10 space-y-2">
@@ -265,13 +266,13 @@ export const Footer = () => {
 
         </div>
 
-        {/* Massive 3D Interactive Typography (ACROSSYS) */}
+        {/* Massive 3D Interactive Typography (NIMAD TECH) */}
         <div
           ref={hoverContainerRef}
-          className="acrossys-hover-box py-14 sm:py-20 md:py-24 text-center select-none overflow-visible"
+          className="nimad-hover-box py-14 sm:py-20 md:py-24 text-center select-none overflow-visible"
           style={{ perspective: '800px' }}
         >
-          <div className="flex justify-center items-center flex-nowrap font-display font-black text-[clamp(32px,11.5vw,220px)] leading-none tracking-tight text-white">
+          <div className="flex justify-center items-center flex-nowrap font-display font-black text-[clamp(28px,8.5vw,160px)] leading-none tracking-tight text-white">
             {footerBrandLetters.map((char, idx) => (
               <span
                 key={idx}
@@ -281,7 +282,7 @@ export const Footer = () => {
                   backfaceVisibility: 'hidden'
                 }}
               >
-                {char}
+                {char === ' ' ? '\u00A0' : char}
               </span>
             ))}
           </div>
@@ -291,7 +292,7 @@ export const Footer = () => {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 text-xs">
           
           <p className="text-[#888888]">
-            © {siteData.brand.year} Acrossys Digital. All Rights Reserved.
+            © {siteData.brand.year} Nimad Tech. All Rights Reserved.
           </p>
 
           {/* Social Icons List matching Reference */}
@@ -302,7 +303,7 @@ export const Footer = () => {
                 href={s.href}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={`Visit Acrossys on ${s.name}`}
+                aria-label={`Visit Nimad Tech on ${s.name}`}
                 className="w-8 h-8 rounded-full bg-[#181818] border border-white/10 flex items-center justify-center text-[#aaaaaa] hover:text-[#fb7500] hover:border-[#e57e25] transition-all hover:scale-110 active:scale-95"
               >
                 {s.name === 'Facebook' && (

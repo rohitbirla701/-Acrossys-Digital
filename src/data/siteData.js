@@ -1,23 +1,23 @@
 export const siteData = {
   brand: {
-    name: "Acrossys Digital",
-    logoText: "ACROSSYS",
-    tagline: "Advanced Digital Marketing Agency Services for Sustainable Growth",
-    badgeUrl: "https://acrossysdigital.com/wp-content/uploads/2026/09/Modified-Badge.png",
-    brandSvg: "https://acrossysdigital.com/wp-content/uploads/2026/09/Acossys-Brand.svg",
+    name: "Nimad Tech",
+    logoText: "NIMAD TECH",
+    tagline: "Rooted in Nimad. Built for the World.",
+    badgeUrl: "/nimad-tech-logo.png",
+    brandSvg: "/nimad-tech-logo.png",
     year: "2026",
-    accreditations: "Google, Bing, and Semrush accredited. We drive digital growth across Watford and London.",
+    accreditations: "Enterprise-grade engineering, AI marketing, and digital innovation. Rooted in Nimad. Built for the World.",
     addresses: {
-      uk: "13 Hopwood Close, Watford WD17 4LJ",
-      india: "KCR Business Today, 7th Street, Tatabad, Coimbatore, Tamil Nadu 641012"
+      uk: "Global Delivery & Innovation Hubs",
+      india: "Nimad Region, Madhya Pradesh, India"
     },
-    contactEmail: "sales@acrossysdigital.com",
+    contactEmail: "contact@nimadtech.com",
     socialLinks: [
-      { name: "Facebook", href: "https://www.facebook.com/acrossysdigital.2/" },
-      { name: "X", href: "https://x.com/AcrossysD" },
-      { name: "Instagram", href: "https://www.instagram.com/acrossys.digital/" },
-      { name: "LinkedIn", href: "https://www.linkedin.com/company/acrossysdigital/" },
-      { name: "Pinterest", href: "https://in.pinterest.com/acrossysdigital/" }
+      { name: "Facebook", href: "#" },
+      { name: "X", href: "#" },
+      { name: "Instagram", href: "#" },
+      { name: "LinkedIn", href: "#" },
+      { name: "Pinterest", href: "#" }
     ]
   },
 
@@ -327,7 +327,7 @@ export const siteData = {
     {
       title: "Managed SEO",
       description: "Target high-value searches and close ranking gaps to attract qualified organic traffic.",
-      link: "https://acrossysdigital.com/services/managed-seo/",
+      link: "#services",
       bullets: [
         "Target high-value searches",
         "Close costly ranking gaps",
@@ -338,7 +338,7 @@ export const siteData = {
     {
       title: "Link Building",
       description: "Secure high-authority links that build institutional trust and referral buyer paths.",
-      link: "https://acrossysdigital.com/services/link-building/",
+      link: "#services",
       bullets: [
         "Secure trusted site links",
         "Build authority with links",
@@ -349,7 +349,7 @@ export const siteData = {
     {
       title: "Answer Engine Optimization",
       description: "Optimize AI answer engines (ChatGPT, Perplexity, Copilot) to recommend your brand.",
-      link: "https://acrossysdigital.com/services/answer-engine-optimization/",
+      link: "#services",
       bullets: [
         "Optimise AI answer results",
         "Answer key audience needs",
@@ -360,7 +360,7 @@ export const siteData = {
     {
       title: "Content Creation",
       description: "Create strategic thought leadership and buyer-journey content that converts visitors.",
-      link: "https://acrossysdigital.com/services/content-creation/",
+      link: "#services",
       bullets: [
         "Shape your unique voice",
         "Meet real customer needs",
@@ -371,7 +371,7 @@ export const siteData = {
     {
       title: "AI Search Optimization",
       description: "Map your digital assets to generative search prompts and refine GEO signals.",
-      link: "https://acrossysdigital.com/services/ai-search-optimization/",
+      link: "#services",
       bullets: [
         "Map content to AI prompts",
         "Refine GEO search signals",
@@ -382,7 +382,7 @@ export const siteData = {
     {
       title: "Local SEO",
       description: "Dominate Google Business profiles and capture high-intent local customer searches.",
-      link: "https://acrossysdigital.com/services/local-seo/",
+      link: "#services",
       bullets: [
         "Optimise your Google listing",
         "Target local buyer searches",
@@ -393,7 +393,7 @@ export const siteData = {
     {
       title: "AI Brand Perception Monitoring",
       description: "Audit how large language models perceive, summarize, and rank your brand reputation.",
-      link: "https://acrossysdigital.com/services/ai-brand-perception-monitoring/",
+      link: "#services",
       bullets: [
         "Track how AI describes you",
         "Spot negative brand risks",
@@ -404,7 +404,7 @@ export const siteData = {
     {
       title: "Social Media Marketing",
       description: "Execute platform-tailored campaigns that turn community engagement into pipeline revenue.",
-      link: "https://acrossysdigital.com/services/social-media-marketing/",
+      link: "#services",
       bullets: [
         "Build platform-specific plans",
         "Reach best-fit audiences",
@@ -422,7 +422,7 @@ export const siteData = {
       image: "https://acrossysdigital.com/wp-content/uploads/2026/08/1_AD_2.0_The-Impact-of-Digital-Marketing-on-Property-Management-Growth.jpg",
       description: "How targeted multi-channel digital marketing helped an established property management firm scale organic acquisitions and capture high-intent regional searches.",
       metrics: "+280% Organic Reach • 4.2x Lead Flow",
-      link: "https://acrossysdigital.com/case-studies/the-impact-of-digital-marketing-on-property-management-growth/"
+      link: "#case-studies"
     },
     {
       id: "home-renovation",
@@ -431,7 +431,7 @@ export const siteData = {
       image: "https://acrossysdigital.com/wp-content/uploads/2026/08/5_AD_2.0_Rebuilding-Consistency-in-a-Home-Renovation-Enquiry-Pipeline.jpg",
       description: "A comprehensive SEO and paid media architecture re-engineering that transformed unpredictable project bookings into steady high-value consultations.",
       metrics: "+340% Qualified Inquiries • 65% Lower CAC",
-      link: "https://acrossysdigital.com/case-studies/rebuilding-consistency-in-a-home-renovation-enquiry-pipeline/"
+      link: "#case-studies"
     },
     {
       id: "beauty-ecommerce",
@@ -440,7 +440,7 @@ export const siteData = {
       image: "https://acrossysdigital.com/wp-content/uploads/2026/08/Rebuilding-Consistency-for-a-Beauty-eCommerce-Brand-Final.png",
       description: "Revamped brand perception and search optimization strategies designed to dominate competitive eCommerce keywords and drive high-intent shoppers directly to product lines.",
       metrics: "+410% Direct DTC Sales • 3.8x ROAS",
-      link: "https://acrossysdigital.com/case-studies/rebuilding-consistency-for-a-beauty-ecommerce-brand/"
+      link: "#case-studies"
     },
     {
       id: "skincare-growth",
@@ -449,7 +449,7 @@ export const siteData = {
       image: "https://acrossysdigital.com/wp-content/uploads/2026/08/3_AD_2.0_Driving-Revenue-Growth-for-a-Skincare-Brand.jpg",
       description: "High-performance headless web development integrated with conversion-focused UI/UX that modernized customer checkout journeys and increased repeat purchases.",
       metrics: "+195% Conversion Rate • +52% AOV",
-      link: "https://acrossysdigital.com/case-studies/driving-revenue-growth-for-a-skincare-brand/"
+      link: "#case-studies"
     }
   ],
 
@@ -521,10 +521,10 @@ export const siteData = {
     headline: "Have An Idea? Let’s Create Something Exceptional.",
     subtitle: "Thinking about working with us? Here are clear and helpful answers to help you understand our process, know what to expect, and get started with confidence.",
     ctaText: "Get Started",
-    ctaLink: "https://acrossysdigital.com/contact-us/",
+    ctaLink: "#contact",
     items: [
       {
-        question: "What digital marketing services does Acrossys offer?",
+        question: "What digital marketing services does Nimad Tech offer?",
         answer: "We offer website development, Managed SEO, AI Search Optimization (GEO), AI Brand Perception Monitoring, Social Media Marketing, and other digital solutions tailored to your business goals."
       },
       {
@@ -552,21 +552,21 @@ export const siteData = {
       date: "8 Oct",
       categories: ["Design & Product Strategy", "UI-UX"],
       image: "https://acrossysdigital.com/wp-content/uploads/2026/10/1.10-Reasons-Why-You-Should-Track-AI-Brand-Visibility.jpg",
-      link: "https://acrossysdigital.com/10-reasons-why-you-should-track-ai-brand-visibility/"
+      link: "#blog"
     },
     {
       title: "21 Recommended Free SEO Analysis Tools",
       date: "5 Sep",
       categories: ["Business Growth", "Digital Marketing & Branding"],
       image: "https://acrossysdigital.com/wp-content/uploads/2026/09/2.21-Recommended-Free-SEO-Analysis-Tools.jpg",
-      link: "https://acrossysdigital.com/21-recommended-free-seo-analysis-tools/"
+      link: "#blog"
     },
     {
       title: "7 Best Link-Building Services for Stronger SEO Performance",
       date: "5 Sep",
       categories: ["Business Growth", "Digital Marketing & Branding"],
       image: "https://acrossysdigital.com/wp-content/uploads/2026/09/3.7-Best-Link-Building-Services-for-SEO-Performance.jpg",
-      link: "https://acrossysdigital.com/7-best-link-building-services-for-stronger-seo-performance/"
+      link: "#blog"
     }
   ],
 
@@ -575,7 +575,7 @@ export const siteData = {
     title2: "Develop",
     title3: "Launch",
     ctaText: "Explore More",
-    ctaLink: "https://acrossysdigital.com/contact-us/",
+    ctaLink: "#contact",
     image: "https://acrossysdigital.com/wp-content/uploads/2026/08/1.Develop.jpg"
   },
 
@@ -584,22 +584,22 @@ export const siteData = {
     "Innovative Design",
     "Cutting-Edge Technology",
     "Results-Driven Digital Solutions",
-    "Work With Acrossys Digital"
+    "Work With Nimad Tech"
   ],
 
   footerServices: [
-    { title: "Managed SEO", href: "https://acrossysdigital.com/services/managed-seo/" },
-    { title: "Answer Engine Optimization", href: "https://acrossysdigital.com/services/answer-engine-optimization/" },
-    { title: "AI Search Optimization", href: "https://acrossysdigital.com/services/ai-search-optimization/" },
-    { title: "AI Brand Perception Monitoring", href: "https://acrossysdigital.com/services/ai-brand-perception-monitoring/" },
-    { title: "Link Building", href: "https://acrossysdigital.com/services/link-building/" },
-    { title: "Content Creation", href: "https://acrossysdigital.com/services/content-creation/" },
-    { title: "Local SEO", href: "https://acrossysdigital.com/services/local-seo/" },
-    { title: "Social Media Marketing", href: "https://acrossysdigital.com/services/social-media-marketing/" },
-    { title: "Managed PPC", href: "https://acrossysdigital.com/services/managed-ppc/" },
-    { title: "Website Development", href: "https://acrossysdigital.com/services/website-development/" },
-    { title: "Design Services", href: "https://acrossysdigital.com/services/design-services/" },
-    { title: "Personal Branding", href: "https://acrossysdigital.com/services/personal-branding/" }
+    { title: "Managed SEO", href: "#services" },
+    { title: "Answer Engine Optimization", href: "#services" },
+    { title: "AI Search Optimization", href: "#services" },
+    { title: "AI Brand Perception Monitoring", href: "#services" },
+    { title: "Link Building", href: "#services" },
+    { title: "Content Creation", href: "#services" },
+    { title: "Local SEO", href: "#services" },
+    { title: "Social Media Marketing", href: "#services" },
+    { title: "Managed PPC", href: "#services" },
+    { title: "Website Development", href: "#services" },
+    { title: "Design Services", href: "#services" },
+    { title: "Personal Branding", href: "#services" }
   ],
 
   footerExplore: [
@@ -609,8 +609,8 @@ export const siteData = {
   ],
 
   footerLegal: [
-    { title: "Privacy Policy", href: "https://acrossysdigital.com/privacy-policy/" },
-    { title: "Terms of Service", href: "https://acrossysdigital.com/terms-of-service/" },
-    { title: "Cookie Policy", href: "https://acrossysdigital.com/cookie-policy/" }
+    { title: "Privacy Policy", href: "#privacy" },
+    { title: "Terms of Service", href: "#terms" },
+    { title: "Cookie Policy", href: "#cookies" }
   ]
 };

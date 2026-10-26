@@ -79,7 +79,7 @@ export const BlogSection = () => {
           </div>
 
           <MagneticButton
-            href="https://acrossysdigital.com/category/design-product-strategy/"
+            href="#blog"
             variant="outline"
             className="!text-sm flex-shrink-0"
           >
@@ -98,7 +98,7 @@ export const BlogSection = () => {
               <div>
                 {/* Media Holder with Date Boxed Badge */}
                 <div className="relative aspect-[16/11] overflow-hidden bg-[#242424]">
-                  <a href={blog.link} target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <a href={blog.link || "#blog"} className="block w-full h-full">
                     <img
                       src={blog.image}
                       alt={blog.title}
@@ -133,9 +133,7 @@ export const BlogSection = () => {
                   {/* Title */}
                   <h4 className="font-display font-semibold text-lg sm:text-xl text-white group-hover:text-[#fb7500] transition-colors leading-snug">
                     <a
-                      href={blog.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={blog.link || "#blog"}
                       className="hover:underline focus:outline-none"
                     >
                       {blog.title}
@@ -147,9 +145,7 @@ export const BlogSection = () => {
               {/* Bottom Read More Action */}
               <div className="px-6 pb-6 md:px-8 md:pb-8 pt-0">
                 <a
-                  href={blog.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={blog.link || "#blog"}
                   className="inline-flex items-center text-xs font-semibold uppercase tracking-wider text-[#e57e25] group-hover:text-white transition-colors"
                 >
                   <span>Read Article</span>
@@ -197,7 +193,7 @@ export const BlogSection = () => {
               <div ref={floatingImageRef} className="will-change-transform">
                 <img
                   src={siteData.designDevelopLaunch.image}
-                  alt="Develop Acrossys Digital"
+                  alt="Develop Nimad Tech"
                   decoding="async"
                   className="w-full h-[220px] sm:h-[280px] md:h-[320px] object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
