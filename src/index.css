@@ -170,6 +170,21 @@ html.lenis, html.lenis body {
   animation: fadeIn 0.35s ease-out forwards;
 }
 
+/* Growth Box 1.2s Rotating Blue-Orange Border Beam */
+@keyframes spin-border {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.growth-border-beam {
+  animation: spin-border 1.2s linear infinite;
+  will-change: transform;
+}
+
 /* Focus Visible High-Contrast Outline for Accessibility */
 :focus-visible {
   outline: 2px solid #e57e25;

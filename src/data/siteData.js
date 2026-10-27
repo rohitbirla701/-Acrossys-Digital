@@ -9,13 +9,13 @@ export const siteData = {
     accreditations: "Enterprise-grade engineering, AI marketing, and digital innovation. Rooted in Nimad. Built for the World.",
     addresses: {
       uk: "Global Delivery & Innovation Hubs",
-      india: "Nimad Region, Madhya Pradesh, India"
+      india: "Indore, Madhya Pradesh, India"
     },
-    contactEmail: "contact@nimadtech.com",
+    contactEmail: "nimadtech62@gmail.com",
     socialLinks: [
       { name: "Facebook", href: "#" },
       { name: "X", href: "#" },
-      { name: "Instagram", href: "#" },
+      { name: "Instagram", href: "https://www.instagram.com/nimadtech62/" },
       { name: "LinkedIn", href: "#" },
       { name: "Pinterest", href: "#" }
     ]
