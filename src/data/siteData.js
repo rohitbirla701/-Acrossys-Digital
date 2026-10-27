@@ -1,10 +1,12 @@
+import nimadLogo from '../assets/nimad-tech-logo.png';
+
 export const siteData = {
   brand: {
     name: "Nimad Tech",
     logoText: "NIMAD TECH",
     tagline: "Rooted in Nimad. Built for the World.",
-    badgeUrl: "/nimad-tech-logo.png",
-    brandSvg: "/nimad-tech-logo.png",
+    badgeUrl: nimadLogo,
+    brandSvg: nimadLogo,
     year: "2026",
     accreditations: "Enterprise-grade engineering, AI marketing, and digital innovation. Rooted in Nimad. Built for the World.",
     addresses: {
@@ -15,7 +17,7 @@ export const siteData = {
     socialLinks: [
       { name: "Facebook", href: "#" },
       { name: "X", href: "#" },
-      { name: "Instagram", href: "https://www.instagram.com/nimadtech62/" },
+      { name: "Instagram", href: "www.instagram.com/nimadtech62/" },
       { name: "LinkedIn", href: "#" },
       { name: "Pinterest", href: "#" }
     ]

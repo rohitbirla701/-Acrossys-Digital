@@ -3,13 +3,13 @@ import gsap from 'gsap';
 import { ArrowUpRight, ChevronDown, Menu, X } from 'lucide-react';
 import { siteData } from '../data/siteData';
 import { MagneticButton } from './MagneticButton';
+import nimadLogo from '../assets/nimad-tech-logo.png';
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [openMobileSub, setOpenMobileSub] = useState({});
-  const [logoError, setLogoError] = useState(false);
 
   const navRef = useRef(null);
   const mobileMenuRef = useRef(null);
@@ -75,25 +75,13 @@ export const Navbar = () => {
       <div className="max-w-[1620px] mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#hero" className="flex items-center gap-3 group focus:outline-none">
-          {!logoError ? (
-            <div className="bg-white/95 px-3 py-1.5 rounded-xl border border-white/20 shadow-md flex items-center transition-transform duration-300 group-hover:scale-105">
-              <img
-                src={siteData.brand.brandSvg}
-                alt={siteData.brand.name}
-                onError={() => setLogoError(true)}
-                className="h-7 sm:h-8 md:h-9 w-auto object-contain"
-              />
-            </div>
-          ) : (
-            <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#e57e25] to-[#fb7500] flex items-center justify-center shadow-lg shadow-[#e57e25]/30">
-                <span className="font-display font-black text-black text-sm">N</span>
-              </div>
-              <span className="font-display font-bold text-xl md:text-2xl tracking-tight text-white group-hover:text-[#fb7500] transition-colors">
-                NIMAD TECH<span className="text-[#e57e25]">.</span>
-              </span>
-            </div>
-          )}
+          <div className="bg-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-white/20 shadow-md flex items-center transition-transform duration-300 group-hover:scale-105">
+            <img
+              src={nimadLogo}
+              alt={siteData.brand.name}
+              className="h-10 sm:h-12 md:h-15 w-auto object-contain"
+            />
+          </div>
         </a>
 
         {/* Desktop Navigation Links */}

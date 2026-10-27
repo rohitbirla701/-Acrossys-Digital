@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ArrowUp, MapPin, Mail, Award, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 import { siteData } from '../data/siteData';
+import nimadLogo from '../assets/nimad-tech-logo.png';
 
 export const Footer = () => {
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -113,9 +114,9 @@ export const Footer = () => {
             <a href="#hero" className="inline-flex items-center gap-3 group">
               <div className="bg-white/95 px-3 py-1.5 rounded-xl border border-white/20 shadow-md flex items-center group-hover:scale-105 transition-transform">
                 <img
-                  src={siteData.brand.brandSvg}
+                  src={nimadLogo}
                   alt={siteData.brand.name}
-                  className="h-8 sm:h-9 w-auto object-contain"
+                  className="h-12 sm:h-15 w-auto object-contain"
                 />
               </div>
             </a>
